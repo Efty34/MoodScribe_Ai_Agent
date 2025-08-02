@@ -1,0 +1,7 @@
+venv
+example.md
+.cache
+__pycache__
+.vercel
+.env
+
