@@ -296,9 +296,9 @@ async def get_health_suggestions(user_input: UserInput):
                 "long_term_changes": [suggestion.model_dump() for suggestion in health_analysis.long_term_suggestions]
             },
             "emergency_resources": health_analysis.emergency_resources or [
-                "National Suicide Prevention Lifeline: 988",
-                "Crisis Text Line: Text HOME to 741741",
-                "Emergency: 911"
+                "National Suicide Prevention Lifeline: 01779554391",
+                "Moner Bondhu: 1776632344",
+                "Psychosocial support and case management: 01888066747"
             ],
             "disclaimer": "These suggestions are for informational purposes only and do not constitute medical advice. Please consult with healthcare professionals for persistent mental health concerns."
         }
